@@ -119,12 +119,28 @@
             <ion-card-header>
               <ion-card-title><ion-text color="light" ><h1 class="judul">pH</h1></ion-text></ion-card-title>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    normal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    abnormal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
             </ion-card-header>
 
@@ -137,12 +153,28 @@
             <ion-card-header>
               <ion-card-title><ion-text color="light"><h1 class="judul">DO</h1></ion-text></ion-card-title>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    normal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    abnormal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
             </ion-card-header>
 
@@ -155,12 +187,28 @@
             <ion-card-header>
               <ion-card-title><ion-text color="light"><h1 class="judul">Suhu</h1></ion-text></ion-card-title>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    normal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
               <ion-row>
-                <ion-col size="6"></ion-col>
-                <ion-col size="6"></ion-col>
+                <ion-col size="6">
+                  <ion-text color="light">
+                    abnormal
+                  </ion-text>
+                </ion-col>
+                <ion-col size="6">
+                  <ion-text color="primary">
+                    6 kolam
+                  </ion-text>
+                </ion-col>
               </ion-row>
             </ion-card-header>
 
@@ -170,17 +218,13 @@
         </swiper-slide>
       </swiper>
     </ion-content>
-
-    <ion-footer :translucent="true">
-      <ion-toolbar>
-        <ion-title></ion-title>
-      </ion-toolbar>
-    </ion-footer>
+    
+    
   </ion-page>
 </template>
 
 <script lang="ts">
-import { IonContent, IonPage, IonTitle, IonGrid, IonCol, IonCard, IonToolbar, IonFooter,IonText} from '@ionic/vue';
+import { IonContent, IonPage, IonTitle, IonGrid, IonCol, IonCard,IonText, } from '@ionic/vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { defineComponent } from 'vue';
 
@@ -196,11 +240,9 @@ export default defineComponent({
     IonGrid,
     IonCol,
     IonCard,
-    IonToolbar,
-    IonFooter,
     Swiper,
     SwiperSlide,
-    IonText
+    IonText,
   },
   setup() {
     // Optional parameters to pass to the swiper instance. See https://swiperjs.com/swiper-api for valid options.
