@@ -182,7 +182,7 @@
             </ion-item>
         </ion-list>
         <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-            <ion-fab-button color="tertiary">
+            <ion-fab-button color="tertiary" href="/register">
             <ion-icon src="assets/img/tandatambah.svg"></ion-icon>
             </ion-fab-button>
         </ion-fab>

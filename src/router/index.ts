@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 import HomePage from '../views/HomePage.vue';
 import PondPage from '../views/PondPage.vue';
 import TabPage from '../views/Tab.vue'
+import RegisterPage from '../views/RegisterPond.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,8 +25,12 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'pond',
         component: PondPage
-      }
+      },
     ]
+  },
+  {
+    path: '/register',
+    component: RegisterPage
   }
 ]
 
